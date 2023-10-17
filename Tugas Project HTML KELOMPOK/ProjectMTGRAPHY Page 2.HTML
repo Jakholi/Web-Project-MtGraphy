@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="csspage2.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="jspage2.js">
+    <link rel="stylesheet" href="csspage2.1.css">
+</head>
+<body>
+    <div class="section1">
+        <div class="navbar">
+            <div class="nav-wraper">
+                <div class="logo">
+                    <h1>MTGraphy</h1>
+                </div>
+                <div class="itemlist">
+                    <a href="ProjectMTGRAPHY Page 1.html">Home</a>
+                    <a href="ProjectMTGRAPHY Page 2.html">Gallery</a>
+                    <a href="ProjectMTGRAPHY Page 3.html">About us</a>
+                    <a href="ProjectMTGRAPHY Page 4.html">Contact us</a>
+                    <a href="ProjectMTGRAPHY Page 5.html">Subscribe</a>
+                </div>
+            </div>
+        </div>
+        <div class="contain">
+            <div class="baa1">
+                <h1>Gallery</h1>
+            </div>
+        </div>
+        <div class="descriptiongallery">
+            <h1>Landscape Photograph</h1>
+        </div>
+        <div class="navigation1">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="Assets/landscape 1.jpg" alt="" height="300px"></div>
+                    <div class="swiper-slide"><img src="Assets/landscape 2.jpg" alt="" height="300px"></div>
+                    <div class="swiper-slide"><img src="Assets/landscape 3.jpg" alt="" height="300px"></div>
+                    <div class="swiper-slide"><img src="Assets/landscape 4.jpg" alt="" height="300px"></div>
+                    <div class="swiper-slide"><img src="Assets/landscape 5.jpg" alt="" height="300px"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+        </div>
+        <div class="portraitphotograph">
+            <h1>Portrait Photograph</h1>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="Assets/portrait 1.jpg" alt="" height="300px"></div>
+                <div class="swiper-slide"><img src="Assets/portrait 2.jpg" alt="" height="300px"></div>
+                <div class="swiper-slide"><img src="Assets/portrait 3.jpg" alt="" height="300px"></div>
+                <div class="swiper-slide"><img src="Assets/portrait 4.jpg" alt="" height="300px"></div>
+                <div class="swiper-slide"><img src="Assets/portrait 5.jpg" alt="" height="300px"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+    </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+</body>
+</html>

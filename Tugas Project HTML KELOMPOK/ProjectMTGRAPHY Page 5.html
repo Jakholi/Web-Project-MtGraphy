@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="csspage5.css">
+</head>
+<script src="./jspage5.js"></script>
+<body>
+    <div class="section1">
+        <div class="navbar">
+            <div class="nav-wraper">
+                <div class="logo">
+                    <h1>MTGraphy</h1>
+                </div>
+                <div class="itemlist">
+                    <a href="ProjectMTGRAPHY Page 1.html">Home</a>
+                    <a href="ProjectMTGRAPHY Page 2.html">Gallery</a>
+                    <a href="ProjectMTGRAPHY Page 3.html">About us</a>
+                    <a href="ProjectMTGRAPHY Page 4.html">Contact us</a>
+                    <a href="ProjectMTGRAPHY Page 5.html">Subscribe</a>
+                </div>
+            </div>
+        </div>
+        <div class="submitpage">
+            <form action="/" onsubmit="reg(event)">
+                <div class="title">
+                    Subscribe
+                <div>
+                    <div class="isititle">
+                    <div class="name">
+                        <label for="name">Name</label>
+                        <input type="text" name="" id="yourname" placeholder="Username" required>
+                    </div>   
+                   <div class="email">
+                        <label for="email">Email</label>
+                        <input type="email" name="" id="youremail" placeholder="Email" required>
+                   </div>
+                   <div class="num">
+                        <label for="phonenumber">Phone Number</label>
+                        <input type="number" name="" id="yournumber" placeholder="Phone number" required>
+                   </div>
+                    <div class="country">
+                    <label for="country">Country</label><span style="color: red !important; display: inline; float: none;">*</span>
+                    <select id="country" name="country" class="form-control">
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Singapore">Singapore</option>
+                    </select>
+                    </div>
+                    <div class="pass">
+                        <label for="password">Password</label>
+                        <input type="password" name="" id="yourpassword" placeholder="Password" required>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" name="" id="checkbox" required>
+                        <label for="checkBox">Agree with terms & conditions</label>
+                    </div>
+                </div>
+            </div>
+                    <button type="submit">Subscribe</button>
+            </form>
+</body>
+</html>
